@@ -1,0 +1,20 @@
+{
+  "name": "ai-assisted-concert-crawler",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "crawl": "node crawler.js",
+    "start": "npm install && node crawler.js",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "download": "node download.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "openai": "^3.2.1",
+    "dotenv": "^16.0.3"
+  }
+}
